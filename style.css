@@ -1,0 +1,40 @@
+.origami{
+    background-color: darkblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.origami:hover{
+    transform: scale(1.1);
+    background-color: lightblue;
+}
+.menu{
+    background-color: aqua;
+    display: flex;
+    align-items: flex-end;
+}
+
+.menu:hover{
+    background-color: lightblue;
+}
+a:link{
+    color:white;
+}
+a:visited{
+    color:gray;
+}
+/* .origami{
+    position: absolute;
+} */
+.origami p{
+/* position: relative; */
+transform: translate(-0%,30%);
+opacity: 0;
+}
+.origami:hover p{
+    opacity:1
+}
+
+.origami:hover img{
+    opacity:0.33
+}
