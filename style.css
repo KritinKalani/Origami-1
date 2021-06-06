@@ -36,7 +36,6 @@ opacity: 0;
 .menu{
     background-color: aqua;
     display: flex;
-    margin: 40 px;
     align-items: flex-end;
 }
 
